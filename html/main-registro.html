@@ -1,0 +1,62 @@
+<main>
+  <div class="container box-register-container">
+    <div class="box-register">
+      <form name="register" action="./index.html">
+        <div class="wrapper">
+          <label for="name">Nombre:</label>
+          <input type="text" name="name" id="name" required />
+        </div>
+
+        <div class="wrapper">
+          <label for="surname">Apellido:</label>
+          <input type="text" name="surname" id="surname" required />
+        </div>
+
+        <div class="wrapper">
+          <div class="radio-container">
+            <label for="sex-male">Masculino</label>
+            <input type="radio" name="sex" id="sex-male" value="male" />
+          </div>
+
+          <div class="radio-container">
+            <label for="sex-female">Femenino</label>
+            <input type="radio" name="sex" id="sex-female" value="female" />
+          </div>
+        </div>
+
+        <div class="wrapper">
+          <label for="username">Nombre de usuario</label>
+          <input type="text" name="username" id="username" required />
+        </div>
+
+        <div class="wrapper">
+          <label for="password">Contraseña:</label>
+          <input type="password" name="password" id="password" required />
+        </div>
+
+        <div class="wrapper">
+          <label for="birthdate">Fecha de nacimiento:</label>
+          <input type="date" name="birthdate" id="birthdate" required />
+        </div>
+
+        <div class="wrapper">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required />
+        </div>
+
+        <div class="wrapper">
+          <label for="captcha">Captcha:</label>
+          <div class="captcha-container">
+            <p id="captcha-p"></p>
+            <button id="btn-refresh-captcha" class="register-btn">
+              Refrescar
+            </button>
+          </div>
+        </div>
+
+        <input type="text" name="captcha" id="captcha" required />
+        <input type="submit" class="register-btn send" value="Enviar" />
+      </form>
+    </div>
+  </div>
+</main>

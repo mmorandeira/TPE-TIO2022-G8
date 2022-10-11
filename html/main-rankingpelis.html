@@ -1,0 +1,67 @@
+<main>
+  <div class="container">
+    <div class="ranking-pelis-holder spinner">
+      <div class="ranking-pelis-buttons-holder">
+        <button id="btn-previous" class="btn btn-previous hidden">
+          Anterior
+        </button>
+        <button id="btn-next" class="btn btn-next">Siguiente</button>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form name="table-filter" action="" class="filters">
+        <label for="column">Columna</label>
+        <select name="column" id="column" requierd>
+          <option value="ranking">Ranking</option>
+          <option value="title">Titulo</option>
+          <option value="score">Puntaje</option>
+          <option selected="selected" value="views">Visualizaciones</option>
+          <option value="downloads">Descargas</option>
+        </select>
+        <label for="comparator">Comparador</label>
+        <select name="comparator" id="comparator" required>
+          <option selected="selected" value=">">Mayor</option>
+          <option value="<">Menor</option>
+          <option value="=">Igual</option>
+        </select>
+        <label for="value">Valor</label>
+        <input type="text" name="value" id="value" required />
+        <input type="submit" value="Filtrar" class="btn btn-next" />
+      </form>
+    </div>
+
+    <!-- Form stuff -->
+    <div class="añadir-elemento">
+      <form name="table-add" class="anadir-pelis">
+        <label for="ranking">Ranking:</label>
+        <input type="number" step="1" name="ranking" id="ranking" requierd />
+
+        <label for="title">Titulo:</label>
+        <input type="text" name="title" id="title" required />
+
+        <label for="views">Visualizaciones:</label>
+        <input type="number" step="1" name="views" id="views" required />
+
+        <label for="downloads">Descargas:</label>
+        <input
+          type="number"
+          step="1"
+          name="downloads"
+          id="downloads"
+          required
+        />
+
+        <label for="score">Puntaje:</label>
+        <input type="number" step="0.1" name="score" id="score" required />
+
+        <input type="submit" class="register-btn add" value="Añadir" />
+      </form>
+
+      <div class="añadir-container">
+        <button id="btn-add-3" class="register-btn">Añadir x3</button>
+        <button id="btn-clear" class="register-btn">Vaciar</button>
+      </div>
+    </div>
+  </div>
+</main>
