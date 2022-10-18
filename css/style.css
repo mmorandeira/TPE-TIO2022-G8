@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'momstypewriterregular';
-  src: url('../fonts/Moms_typewriter.ttf') format('truetype');
+  font-family: 'OpenSansExtraBold';
+  src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
 }
 
 :root {
