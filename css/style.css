@@ -145,6 +145,7 @@ header {
   margin: 2rem;
   aspect-ratio: 1;
   width: 4em;
+  height: 300px;
 }
 
 .primary-header {
