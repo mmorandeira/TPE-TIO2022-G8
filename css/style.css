@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'momstypewriterregular';
-  src: url('../fonts/Moms_typewriter.ttf') format('truetype');
+  font-family: 'OpenSansExtraBold';
+  src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
 }
 
 :root {
@@ -53,6 +53,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background-color: rgb(206, 232, 255);
 }
 
 /* A elements that don't have a class get default styles */
@@ -145,6 +146,7 @@ header {
   margin: 2rem;
   aspect-ratio: 1;
   width: 4em;
+  height: 300px;
 }
 
 .primary-header {
