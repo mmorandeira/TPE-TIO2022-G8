@@ -48,7 +48,8 @@ INSERT INTO `peliculas` (`id`, `nombre`) VALUES
 (17, 'My fake boyfriend'),
 (18, 'No man of god'),
 (19, 'Tarsilina'),
-(20, 'The desperate Hour');
+(20, 'The desperate Hour'),
+(21, 'Titanic');
 
 --
 -- Índices para tablas volcadas
