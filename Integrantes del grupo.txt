@@ -3,7 +3,12 @@ Matias Morandeira
 Luciano Arias
 <<<<<<< HEAD
 Martina Svedas
+<<<<<<< HEAD
 =======
 Martina Svedas
 Victoria Cuba Martínez
 >>>>>>> 57a1021f69bf6ff45c95a204e680a01ee36e1990
+=======
+Victoria Cuba Martínez
+Andres Alvarez Iñiguez
+>>>>>>> 049d64d360c1a3bf5de307a16090435136bfe2f4
