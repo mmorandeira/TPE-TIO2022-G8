@@ -1,4 +1,9 @@
 Adriana Kessler
 Matias Morandeira
 Luciano Arias
+<<<<<<< HEAD
 Martina Svedas
+=======
+Martina Svedas
+Victoria Cuba Martínez
+>>>>>>> 57a1021f69bf6ff45c95a204e680a01ee36e1990
