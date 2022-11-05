@@ -1,0 +1,4 @@
+1-Cambiar fuente titulos de peliculas
+2-Agregar secciones de mas generos
+3-Agregar seccion de Recomendaciones
+4-Agregar diferentes opciones de audio
